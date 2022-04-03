@@ -1,0 +1,12 @@
+div:first-of-type { /* Centers parent DIV. */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+body { /* Grid background. Also sets Atkinson Hyperlegible as default font. */
+    background: repeating-linear-gradient(90deg,  #8FBC8F  0,  #8FBC8F  5%, transparent 0, transparent 50%), repeating-linear-gradient(180deg,  #8FBC8F  0,  #8FBC8F  5%, transparent 0, transparent 50%);
+    background-size: 3em 3em;
+    background-color: #f9f9ff;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+};
