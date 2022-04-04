@@ -4,9 +4,23 @@ div:first-of-type { /* Centers parent DIV. */
     align-items:center;
 }
 
+td > p {
+    margin: 0px;
+}
+
+.content{
+    border:2.5px solid wheat; 
+    border-radius:25px;
+    background-color:#fff7eb; 
+    width:80%;
+    margin:1em;
+    text-align: center;
+    display: block;
+}
+
 body { /* Grid background. Also sets Atkinson Hyperlegible as default font. */
-    background: repeating-linear-gradient(90deg,  #ffebcd  0,  #ffebcd  5%, transparent 0, transparent 50%), repeating-linear-gradient(180deg,  #ffebcd  0,  #ffebcd  5%, transparent 0, transparent 50%);
+    background: repeating-linear-gradient(90deg,  #ead6b4  0,  #ead6b4  5%, transparent 0, transparent 50%), repeating-linear-gradient(180deg,  #ead6b4  0,  #ead6b4  5%, transparent 0, transparent 50%);
     background-size: 3em 3em;
-    background-color: #fff7eb;
+    background-color: rgb(244, 233, 212);
     font-family: 'Atkinson Hyperlegible', sans-serif;
 };
